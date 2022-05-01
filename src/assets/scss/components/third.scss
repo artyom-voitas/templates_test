@@ -1,0 +1,32 @@
+.third {
+    overflow: hidden;
+    padding-top: 100px;
+
+    .swiper-slide {
+        width: 366px;
+    }
+
+    &__item {
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #757575;
+        position: absolute;
+        bottom: 0;
+        left: 12px;
+        right: 12px;
+        background: #FFFFFF;
+        border-radius: 25px;
+        padding: 10px 30px;
+
+    }
+
+    &__img {
+    }
+}

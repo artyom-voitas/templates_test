@@ -1,0 +1,61 @@
+.second {
+    background: #1C1B21;
+    padding: 120px 0;
+    
+    &__row {
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 30px 0px;
+        padding: 50px 80px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    &__content {
+        max-width: 520px;
+        position: relative;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+
+        &::before {
+            content: "";
+            height: 103px;
+            width: 92px;
+            background-image: url('../imgs/qoutes.svg');
+            background-repeat: no-repeat;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    &__line {
+        border: 1px solid rgba($color: white, $alpha: 0.6);
+        margin-bottom: 25px;
+    }
+
+    &__link {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #7A66CC;
+    }
+
+    &__img {
+        
+    }
+
+    &__img img {
+        border-radius: 30px 0px;
+        max-width: 100%;
+        margin: -100px 0;
+    }
+}
